@@ -6,13 +6,11 @@
 
 ---
 
-# Exploring Lysosomal Enzymes Using NCBI and R
-
 ## Project Overview
 
 This individual laboratory activity explores the human lysosomal enzyme **lysosomal acid lipase (LAL)**, encoded by the **LIPA** gene.
 
-- **Organism:** Homo sapiens
+- **Organism:** *Homo sapiens*
 - **Gene:** LIPA
 - **Enzyme:** Lysosomal acid lipase/cholesteryl ester hydrolase
 - **RefSeq Protein Accession:** NP_000226.2
@@ -22,7 +20,7 @@ Lysosomal acid lipase normally hydrolyzes **cholesteryl esters and triglycerides
 
 ## NCBI Record
 
-**NCBI RefSeq:** NP_000226.2
+**NCBI RefSeq:** [NP_000226.2](https://www.ncbi.nlm.nih.gov/protein/NP_000226.2)
 
 ## Methods
 
@@ -91,13 +89,13 @@ Lysosomal acid lipase normally breaks down **cholesteryl esters and triglyceride
 
 The LIPA protein sequence analyzed is **399 amino acids long**.
 
-The most common amino acid is **leucine (L)** with 43 residues (10.78%). The other four most common amino acids are serine (S), glycine (G), valine (V), and phenylalanine (F).
+The most common amino acid is **leucine (L)** with 43 residues (10.78%). The other four most common amino acids are **serine (S), glycine (G), valine (V), and phenylalanine (F)**.
 
 ### 3. How many potential N-glycosylation motifs were found and where are they located?
 
 A total of **six potential N-glycosylation motifs** were identified.
 
-They are located at positions:
+They are located at:
 
 - Position 36: NVS
 - Position 72: NHS
@@ -108,7 +106,7 @@ They are located at positions:
 
 ### 4. Why does glycosylation matter for lysosomal proteins? Does a motif prove glycosylation?
 
-Glycosylation can help lysosomal proteins with **proper folding, stability, and trafficking** through the cell. Glycosylation can also be involved in the targeting of lysosomal enzymes to lysosomes.
+Glycosylation can help lysosomal proteins with **proper folding, stability, and trafficking** through the cell. It can also be involved in the targeting of lysosomal enzymes to lysosomes.
 
 However, finding an **N-X-S/T motif does not prove that glycosylation actually occurs** at that site. The motif only indicates a potential site. Sequence analysis alone cannot experimentally confirm glycosylation or the presence of a mannose-6-phosphate tag.
 
@@ -146,4 +144,4 @@ This analysis is based on the protein sequence of LIPA. The identification of N-
 
 ## Conclusion
 
-The human LIPA protein sequence analyzed using NCBI and R is **399 amino acids long** and contains six potential N-glycosylation motifs. Leucine is the most abundant amino acid in the sequence, with 43 residues. The sequence analysis provides information about the protein's amino acid composition and potential glycosylation sites but does not experimentally confirm glycosylation or enzyme activity.
+The human LIPA protein sequence analyzed using NCBI and R is **399 amino acids long** and contains **six potential N-glycosylation motifs**. Leucine is the most abundant amino acid in the sequence, with 43 residues. The sequence analysis provides information about the protein's amino acid composition and potential glycosylation sites but does not experimentally confirm glycosylation or enzyme activity.
